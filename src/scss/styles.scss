@@ -24,3 +24,58 @@
 
 // Custom styles:
 
+// Jumbotron styling
+.jumbotron {
+    background: url('../img/pirate-ship.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.jumbotron-title {
+    font-family: 'Trirong', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.jumbotron-subtitle {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.footer {
+    background-color: #80b3a4;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: #212529; // Dark theme
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 1rem;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &.active {
+            font-weight: bold;
+        }
+    }
+}
